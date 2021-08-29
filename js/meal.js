@@ -22,7 +22,7 @@ const displayMeal = meal =>{
     const mealDiv = document.getElementById('meals');
     mealDiv.textContent = '';
     if (meal == null) {        
-     mealDiv.innerText = 'no result found'   
+     
     }
    else{
     meal.forEach(food=> {
