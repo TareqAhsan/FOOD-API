@@ -18,7 +18,7 @@ document.getElementById('search-btn').addEventListener('click',()=>{
 
 const displayMeal = meal =>{
     console.log(meal);
-    const result = document.getElementById('result');
+    const result = document.getElementById('result');  // meal is on search 
     result.innerText=""
     const mealDiv = document.getElementById('meals');
     mealDiv.textContent = '';
