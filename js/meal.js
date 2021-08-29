@@ -18,11 +18,12 @@ document.getElementById('search-btn').addEventListener('click',()=>{
 
 const displayMeal = meal =>{
     console.log(meal);
-  
+    const result = document.getElementById('result');
+    result.innerText=""
     const mealDiv = document.getElementById('meals');
     mealDiv.textContent = '';
     if (meal == null) {        
-     
+     result.innerText ="no result found search other types of food"
     }
    else{
     meal.forEach(food=> {
